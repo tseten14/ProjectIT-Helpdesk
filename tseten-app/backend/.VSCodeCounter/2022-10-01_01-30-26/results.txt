@@ -1,0 +1,39 @@
+Date : 2022-10-01 01:30:26
+Directory : d:\Node Projects\tseten-app\backend
+Total : 9 files,  2924 codes, 15 comments, 35 blanks, all 2974 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          3 |      2,780 |          0 |          2 |      2,782 |
+| JavaScript |          6 |        144 |         15 |         33 |        192 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                      | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                         |          9 |      2,924 |         15 |         35 |      2,974 |
+| config                                                    |          1 |          4 |          0 |          0 |          4 |
+| middleware                                                |          1 |         14 |          0 |          4 |         18 |
+| models                                                    |          2 |         55 |          2 |          8 |         65 |
+| routes                                                    |          2 |         38 |          4 |          8 |         50 |
+| routes\api                                                |          2 |         38 |          4 |          8 |         50 |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                  | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Node Projects\tseten-app\backend\app.js                | JavaScript |         37 |          9 |         13 |         59 |
+| d:\Node Projects\tseten-app\backend\config\default.json   | JSON       |          4 |          0 |          0 |          4 |
+| d:\Node Projects\tseten-app\backend\middleware\auth.js    | JavaScript |         14 |          0 |          4 |         18 |
+| d:\Node Projects\tseten-app\backend\models\Contact.js     | JavaScript |         25 |          1 |          4 |         30 |
+| d:\Node Projects\tseten-app\backend\models\User.js        | JavaScript |         30 |          1 |          4 |         35 |
+| d:\Node Projects\tseten-app\backend\package-lock.json     | JSON       |      2,754 |          0 |          1 |      2,755 |
+| d:\Node Projects\tseten-app\backend\package.json          | JSON       |         22 |          0 |          1 |         23 |
+| d:\Node Projects\tseten-app\backend\routes\api\auth.js    | JavaScript |         38 |          4 |          7 |         49 |
+| d:\Node Projects\tseten-app\backend\routes\api\contact.js | JavaScript |          0 |          0 |          1 |          1 |
+| Total                                                     |            |      2,924 |         15 |         35 |      2,974 |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+

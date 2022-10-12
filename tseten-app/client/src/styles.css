@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+/* Header Component */
+.Header {
+  background-color: rgb(134, 38, 51);
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+
+/* Title in card component */
+.Title {
+  font-size: 50px;
+}
+
+head{
+  background-color: rgb(134, 38, 51);
+}
+/* Full Body of Webpage Layout */
+body {
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* RCNJ Logo of Header */
+.RCNJlogo {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 100px;
+  left: 213px;
+  top: 16px;
+}
+
+/* Full Card Component  */
+.FullCard {
+  display: flex;
+  align-items: center;
+  font-family: "Gotham SSm A", sans-serif;
+  border-style: solid;
+  border-color: rgb(134, 38, 51);
+  border-radius: 50px;
+  border-width: thick;
+  height: 280px;
+  width: 340px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+	background: #eeeeee; 
+}
+
+ /*Mapped Card Component Section Components */
+ .Helpdesk{
+
+  display: flex;
+  align-items: center;
+  height: 450px;
+  width: 700px;
+  margin-left: 20px;
+
+}
+
+
+/* Left Side of Card Component */
+.Photo {
+  box-sizing: border-box;
+  margin: 30px;
+  width: 100px;
+  height: 180px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* Description section of RIGHT SIDE OF CARD component */
+.CardDescrip{
+  width: 150px;
+  height: 150px;
+  margin-bottom: -80px;
+  margin-top: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Footer of all web pages */
+.Footer {
+  background-color:rgb(134, 38, 51);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  position: absolute;
+  width: 100%;
+  margin-top: 80px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Description section of Main Home Page */
+.Descrip{
+  margin: 10px;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Gotham SSm A";
+}
+/* //TITLE OF HEADER */
+.TITLE{
+  font-weight: 300px;
+  font-size: 45px;
+
+}
+
+.TechLead{
+  font-weight: bold;
+}
+
+.Heading{
+  font-size: 300%;
+  height: 50px;
+  font-family: "Gotham SSm A", sans-serif;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+
+/* Footer Classes */
+.FooterB{
+  margin-top: -30px;
+
+}
+
+
+.College{
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.NameAuthor{
+    margin-left: 70px;
+}
+
+.Staff{
+  display: flex;
+}
+
+.SAid{
+  margin-left: 20px;
+}
+
+.StaffTitle{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.BCard2{
+  height: 500;
+  width: 500;
+  margin-left: 170px;
+}
+
+.BCardStyle{
+
+  display: flex;
+
+}
+
+.StaffP{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.SherpaProfile{
+  height: 700px;
+  width: 700px;
+  margin-left: 50px;
+}
+.contactForm{
+  margin-left: 20px;
+  margin-bottom: 400px;
+ 
+}
+.FormDesign{
+  font-family: 'Merriweather', serif;
+  margin: 20px;
+  font-size: 30px;
+}

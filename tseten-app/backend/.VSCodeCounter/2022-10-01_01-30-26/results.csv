@@ -1,0 +1,11 @@
+"filename", "language", "JSON", "JavaScript", "comment", "blank", "total"
+"d:\Node Projects\tseten-app\backend\app.js", "JavaScript", 0, 37, 9, 13, 59
+"d:\Node Projects\tseten-app\backend\config\default.json", "JSON", 4, 0, 0, 0, 4
+"d:\Node Projects\tseten-app\backend\middleware\auth.js", "JavaScript", 0, 14, 0, 4, 18
+"d:\Node Projects\tseten-app\backend\models\Contact.js", "JavaScript", 0, 25, 1, 4, 30
+"d:\Node Projects\tseten-app\backend\models\User.js", "JavaScript", 0, 30, 1, 4, 35
+"d:\Node Projects\tseten-app\backend\package-lock.json", "JSON", 2754, 0, 0, 1, 2755
+"d:\Node Projects\tseten-app\backend\package.json", "JSON", 22, 0, 0, 1, 23
+"d:\Node Projects\tseten-app\backend\routes\api\auth.js", "JavaScript", 0, 38, 4, 7, 49
+"d:\Node Projects\tseten-app\backend\routes\api\contact.js", "JavaScript", 0, 0, 0, 1, 1
+"Total", "-", 2780, 144, 15, 35, 2974
