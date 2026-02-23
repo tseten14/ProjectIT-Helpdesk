@@ -7,27 +7,38 @@ import data1 from "./data1.js";
 import ITSNavbar from "../Local Components/Navbar1.js";
 
 export default function Home() {
-  const CardElement = data1.map((data1) => {
-    return (
-      <div>
-        <Card
-          key={data1.id}
-          title={data1.title}
-          description={data1.description}
-          imageUrl={data1.imageUrl}
-          titleUrl={data1.titleLink}
-        />
-
-      </div>
-    );
-  });
   return (
     <div>
       <Header />
       <ITSNavbar />
-      <p className="Heading">IT Helpdesk Features</p>
-      <div className="Helpdesk"> {CardElement}</div>
-      <Description/>
+
+      {/* Hero Section */}
+      <section className="home-hero">
+        <h1 className="fade-up">IT Helpdesk</h1>
+        <p className="fade-up-delay-1">
+          Your one-stop solution for technology support at Ramapo College
+        </p>
+      </section>
+
+      {/* Feature Cards Grid */}
+      <div className="features-grid">
+        {data1.map((item, index) => (
+          <div key={item.id} className={`fade-up-delay-${index % 4}`}>
+            <Card
+              title={item.title}
+              description={item.description}
+              icon={item.icon}
+              titleUrl={item.titleLink}
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Info Accordion */}
+      <div className="info-section">
+        <Description />
+      </div>
+
       <Footer />
     </div>
   );
