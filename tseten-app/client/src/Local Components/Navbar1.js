@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -18,10 +18,10 @@ function ITSNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            {isAuthenticated  && (
+            {isAuthenticated && (
               <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
             )}
-            <Nav.Link as={Link} to="">Online Chat</Nav.Link>
+            <Nav.Link as={Link} to="/chat">Online Chat</Nav.Link>
             <Nav.Link as={Link} to="/Staff">Student Techs</Nav.Link>
             <Nav.Link as={Link} to="/About">About</Nav.Link>
             <Nav.Link as={Link} to="/Contact">Contact Us</Nav.Link>

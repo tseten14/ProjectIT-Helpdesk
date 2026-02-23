@@ -7,7 +7,7 @@ export default function Header() {
       <small>
         <img
           className="RCNJlogo"
-          src= {Logo}
+          src={Logo}
           alt="RCNJ Logo"
         />
         <strong className="Title">RAMAPO COLLEGE OF NEW JERSEY</strong>

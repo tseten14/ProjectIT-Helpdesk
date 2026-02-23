@@ -1,23 +1,33 @@
 import React from "react";
-import Button1 from "./Button1";
+import { Link } from "react-router-dom";
 
 export default function Card(props) {
-  return (
-    /*This is the full component */
-    <div className="FullCard">
-      {/* This is the Image Component */}
+  const isExternal = props.titleUrl && props.titleUrl.startsWith("http");
 
-      <div className="CardLeft">
-        <img className="photo" src={props.imageUrl} alt="" />
-      </div>
-
-      {/* This is the Right Side Component */}
-      <div className="CardRight">
-      
-        <Button1 Title={props.title} Link={props.titleUrl}/>
-        <p className="CardDescrip">{props.description}</p>
-      </div>
-     
+  const cardContent = (
+    <div className="feature-card">
+      <span className="feature-card-icon">{props.icon}</span>
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
     </div>
+  );
+
+  if (isExternal) {
+    return (
+      <a
+        href={props.titleUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none" }}
+      >
+        {cardContent}
+      </a>
+    );
+  }
+
+  return (
+    <Link to={props.titleUrl || "/"} style={{ textDecoration: "none" }}>
+      {cardContent}
+    </Link>
   );
 }

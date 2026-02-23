@@ -4,6 +4,7 @@ import Contact from "./ContactUs Page/Contact.js";
 import About from "./About Page/About.js";
 import Staff from "./STAFF INFO PAGE/Staff.js";
 import Login from "./Login/Login.js";
+import Chat from "./Chat Page/Chat.js";
 import axios from "axios";
 
 import { Routes, Route } from "react-router-dom";
@@ -41,7 +42,8 @@ export default function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Staff" element={<Staff />} />
         <Route path="/login" element={<Login />} />
-        <Route exact path="/dashboard" element={<Dashboard/>} />
+        <Route path="/chat" element={<Chat />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
       </Routes>
     </div>
   );

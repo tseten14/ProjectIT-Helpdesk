@@ -9,11 +9,16 @@ var authRouter = require("./routes/api/auth");
 var seedRouter = require("./routes/api/seed");
 
 var app = express();
-const PORT = process.env.PORT || 5000; //setting port..
+const PORT = process.env.PORT || 5001; //setting port..
 const server = app.listen(PORT, () => console.log("Serving on port " + PORT));
 const config = require("config");
 const jwt = require("jsonwebtoken");
-const io = require("socket.io")(server);
+const io = require("socket.io")(server, {
+  cors: {
+    origin: "*",
+    methods: ["GET", "POST"]
+  }
+});
 
 const { v4: uuid } = require("uuid");
 
